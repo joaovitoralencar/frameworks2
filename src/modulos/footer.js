@@ -1,4 +1,4 @@
-function footer() {
+function Footer() {
     return <div>IFMS - Dourados</div>
 }
-export default footer;
+export default Footer;
