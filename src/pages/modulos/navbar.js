@@ -1,4 +1,4 @@
 function Navbar() {
-    return <div>Menu</div>
+    return <div>Menu FW</div>
 }
 export default Navbar;
