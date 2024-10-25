@@ -12,7 +12,7 @@ const [pao, setpao] = useState("")
     return <>
         <Menu />
         <Container>
-            Promessa {pao}
+            Promessa {pao==="" ? "<carregando>" : pao}
         </Container>
         <Footer />
     </>
