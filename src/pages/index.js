@@ -4,7 +4,7 @@ import Menu from "./modulos/navbar";
 
 export default function Index() {
   return <div>
-    <Menu /> 
+    <Menu />
     <Container>
       Bem vindos a disciplina
     </Container>
