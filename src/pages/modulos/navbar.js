@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import styles from "@/styles/Navbar.module.css"
+
 export default function Menu() {
   return (
     <Container>

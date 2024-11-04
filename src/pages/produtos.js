@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import Footer from "./modulos/footer";
 import Menu from "./modulos/navbar";
 import Accordion from 'react-bootstrap/Accordion';
+
 export default function Produtos() {
     var produtos = [
         {
@@ -49,7 +50,3 @@ export default function Produtos() {
         <Footer />
     </>
 }
-
-
-
-
