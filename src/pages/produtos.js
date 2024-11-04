@@ -2,37 +2,34 @@ import { Container } from "react-bootstrap";
 import Footer from "./modulos/footer";
 import Menu from "./modulos/navbar";
 import Accordion from 'react-bootstrap/Accordion';
-
 export default function Produtos() {
     var produtos = [
         {
             id: 1,
-            produto: "Tênis de Corrida",
-            descricao: "O tênis de corrida é projetado para proporcionar conforto e suporte durante suas atividades físicas. Com uma estrutura leve e respirável, ele se adapta ao formato do pé, reduzindo o impacto nas articulações. Ideal para corredores iniciantes e experientes, este modelo é perfeito para treinos diários e maratonas, garantindo performance e segurança."
+            produto: "Bola de Futebol",
+            descricao: "Bola de futebol oficial de tamanho 5, aprovada pela FIFA, feita de material sintético de alta durabilidade, com costura reforçada e camada externa resistente à abrasão. Ideal para jogos em gramados naturais ou sintéticos. O design aerodinâmico e a construção com 32 gomos proporcionam uma trajetória estável, permitindo maior precisão nos chutes e passes."
         },
         {
             id: 2,
-            produto: "Bicicleta de Montanha",
-            descricao: "A bicicleta de montanha é a escolha perfeita para quem gosta de aventuras em trilhas. Com um quadro robusto e pneus largos, ela oferece excelente tração e estabilidade em terrenos irregulares. Seu sistema de suspensão absorve impactos, proporcionando uma pedalada suave. Ideal para explorar a natureza e manter-se ativo, ela é uma excelente opção para os amantes do ciclismo."
+            produto: "Raquete de Tênis",
+            descricao: "Raquete de tênis profissional, fabricada em grafite e fibra de carbono, que oferece excelente controle e potência. Pesando apenas 300g, é leve o suficiente para permitir movimentação rápida, enquanto seu padrão de encordoamento de 16x19 proporciona maior controle sobre os golpes. Perfeita tanto para iniciantes quanto para jogadores avançados que buscam melhorar seu desempenho nas quadras."
         },
         {
             id: 3,
-            produto: "Bola de Futebol",
-            descricao: "A bola de futebol é um equipamento essencial para os apaixonados pelo esporte. Fabricada com materiais duráveis e resistentes à água, ela garante qualidade e desempenho em qualquer condição. Seu design aerodinâmico proporciona maior precisão nas jogadas, tornando-a ideal tanto para treinos quanto para partidas. Um item indispensável para quem busca aprimorar suas habilidades no futebol."
+            produto: "Halteres Ajustáveis",
+            descricao: "Conjunto de halteres ajustáveis, com peso variando de 2kg a 24kg. Possui um sistema de ajuste fácil que permite mudar o peso rapidamente durante os treinos. Feitos com aço resistente e revestimento de borracha, oferecem conforto e segurança no manuseio. Ideais para exercícios de musculação, fortalecimento muscular e treinamento funcional, otimizando o espaço de treino em casa."
         },
         {
             id: 4,
-            produto: "Raquete de Tênis",
-            descricao: "A raquete de tênis é uma ferramenta fundamental para jogadores de todos os níveis. Com um equilíbrio perfeito entre leveza e potência, ela permite que os atletas realizem golpes precisos e eficazes. Feita com materiais de alta tecnologia, a raquete oferece controle e durabilidade. Ideal para treinos intensos ou competições, é um item que pode fazer a diferença no desempenho do jogador."
+            produto: "Bicicleta Mountain Bike",
+            descricao: "Bicicleta mountain bike de 21 marchas, com suspensão dupla, quadro em alumínio leve e rodas de 29 polegadas. Projetada para terrenos acidentados, trilhas e uso urbano, possui freios a disco hidráulicos que oferecem maior controle e segurança em descidas íngremes. Ideal para quem busca aventura e desempenho em atividades ao ar livre, oferecendo conforto e resistência."
         },
         {
             id: 5,
-            produto: "Equipamento de Yoga",
-            descricao: "O equipamento de yoga é projetado para ajudar na prática e aperfeiçoamento das posturas. Inclui um tapete antiderrapante, blocos de suporte e uma faixa elástica para aumentar a flexibilidade. Este conjunto é perfeito para iniciantes e praticantes avançados, proporcionando conforto e segurança durante as aulas. Ideal para relaxar a mente e fortalecer o corpo, ele transforma a prática em uma experiência única."
+            produto: "Luvas de Boxe",
+            descricao: "Luvas de boxe profissionais, feitas em couro sintético de alta qualidade, com acolchoamento interno para absorção de impacto. Oferecem um ajuste perfeito no pulso, garantindo segurança e conforto durante os treinos e competições. São projetadas para melhorar a performance de atletas em diversas modalidades de luta, como boxe, muay thai e kickboxing, protegendo as mãos contra lesões."
         }
     ]
-
-
     return <>
         <Menu />
         <Container>
@@ -52,3 +49,7 @@ export default function Produtos() {
         <Footer />
     </>
 }
+
+
+
+
