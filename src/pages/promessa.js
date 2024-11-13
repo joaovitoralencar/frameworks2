@@ -4,9 +4,9 @@ import Menu from "./modulos/navbar";
 import { Container } from "react-bootstrap";
 
 export default function Promessa() {
-    const [pao, setpao] = useState("")
+    const [pao, setpao] = useState("") // const - valor que não vai ser alterado; let - variável local dentro de uma function; - var - variáveis globais
     useEffect(() => {
-        setTimeout(async () => {
+        setTimeout(async () => { // async esperar algo que vai renderiza depois
             document.title = "Promessa é dívida";
             const espera = await mudaPao(" é uma dívida")
             setpao(espera);
