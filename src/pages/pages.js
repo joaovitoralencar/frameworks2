@@ -18,6 +18,7 @@ export default function Page({ repo }) {
                 <p>ID: {repo.id}</p>
                 <p>Title:  {repo.title}</p>
                 <p>Description: {repo.description}</p>
+                <p>Node id: {repo.node_id}</p>
             </Container>
             <Footer />
         </main>
